@@ -39,3 +39,32 @@
    of the order id.
    
 ![LittleLemon query5 in MySQL Workbench](query5.png)
+
+### Table Booking System
+
+> Bookings Table
+
+![LittleLemon query6 in MySQL Workbench](query6.png)
+
+> Create a stored procedure called CheckBooking to check whether a table in the restaurant is already booked.
+  The procedure should have two input parameters in the form of booking date and table number.
+  
+![LittleLemon query7 in MySQL Workbench](query7.png) 
+
+> Create a new procedure called AddValidBooking. This procedure must use a transaction statement to perform a rollback if a customer reserves a table that’s already booked under another name.
+
+
+![LittleLemon query8 in MySQL Workbench](query8.png)
+
+> Create a new procedure called AddBooking to add a new table booking record.The procedure should include four input parameters in the form of the following bookings parameters: booking id, customer id, booking date, and table number.
+
+![LittleLemon query9 in MySQL Workbench](query9.png)
+
+> Create a new procedure called UpdateBooking that they can use to update existing bookings in the booking table.
+The procedure should have two input parameters in the form of booking id and booking date. You must also include an UPDATE statement inside the procedure. 
+
+![LittleLemon query_1 in MySQL Workbench](query_1.png)
+
+> Create a new procedure called CancelBooking that they can use to cancel or remove a booking. The procedure should have one input parameter in the form of booking id. You must also write a DELETE statement inside the procedure. 
+
+![LittleLemon query_2 in MySQL Workbench](query_2.png)
