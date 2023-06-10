@@ -25,3 +25,17 @@
 > Find all Menu items for which more than 2 orders have been placed. Create a subquery that checks if any item quantity in the orders table is more than 2. The outer query should be used to select hte menu name from the menu table
 
 ![LittleLemon query2 in MySQL Workbench](query2.png)
+
+> Create a stored procedure that displays the maximum ordered quantity in the orders tables.
+
+![LittleLemon query3 in MySQL Workbench](query3.png)
+
+> Create a prepared statement called GetOrderDetail which should accept one input argument, the CustomerID value, 
+   from a variable. The statement should return the order id, the quantity and the order cost from the Orders table.
+   
+![LittleLemon query4 in MySQL Workbench](query4.png)
+
+> Create a stored procedure called CncelOrder to be used to delete an order record based on the user input
+   of the order id.
+   
+![LittleLemon query5 in MySQL Workbench](query5.png)
