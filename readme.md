@@ -103,4 +103,4 @@ Display sales data for 2020, 2021, and 2022 only. Each bar should display the pr
 ![LittleLemon Tableau chart](dashboard2.png)
 
 ### LittleLemon Database Client
-<a href="LittleLemonDBClient.html" target="_blank">LittleLemon Database Client Link</a>
+[LittleLemon Database Client](LittleLemonDBClient.html)
