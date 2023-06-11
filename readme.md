@@ -101,3 +101,6 @@ Display sales data for 2020, 2021, and 2022 only. Each bar should display the pr
 > Create an interactive dashboard that combines the Bar chart called Customers sales and the Sales Bubble Chart. Once you click a bar, and roll over the related bubble, the name, sales and profit figures should be displayed in the Bubble chart.
 
 ![LittleLemon Tableau chart](dashboard2.png)
+
+### LittleLemon Database Client
+<a href="LittleLemonDBClient.html" target="_blank">LittleLemon Database Client Link</a>
