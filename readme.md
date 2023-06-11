@@ -68,3 +68,36 @@ The procedure should have two input parameters in the form of booking id and boo
 > Create a new procedure called CancelBooking that they can use to cancel or remove a booking. The procedure should have one input parameter in the form of booking id. You must also write a DELETE statement inside the procedure. 
 
 ![LittleLemon query_2 in MySQL Workbench](query_2.png)
+
+### Set up the Tableau Workspace for data analysis
+
+> Create two new data fields called First Name and Last Name. Related values should be extracted from the Full Name field.create two new data fields called First Name and Last Name. Related values should be extracted from the Full Name field.
+
+![LittleLemon Tableau](tbl1.png)
+
+> Create a new data field that stores the profits for each sale, or order.
+
+![LittleLemon Tableau](tbl2.png)
+
+### Create interactive dashboard for sales and profits
+
+> Create a bar chart that shows customers sales and filter data based on sales with at least $70.
+
+![LittleLemon Tableau chart](Customers_sales.png)
+
+> Create a line chart to show the sales trend from 2019 to 2022.
+
+![LittleLemon Tableau chart](profit_chart.png)
+
+> Create a Bubble chart of sales for all customers. The chart should show the names of all customers. Once you roll over a bubble, the chart should show the name, profit and sale.
+
+![LittleLemon Tableau chart](sales_bubble.png)
+
+> Compare the sales of the three different cuisines sold at Little Lemon. Create a Bar chart that shows the sales of the Turkish, Italian and Greek cuisines.
+Display sales data for 2020, 2021, and 2022 only. Each bar should display the profit of each cuisine. 
+
+![LittleLemon Tableau chart](cuisine.png) 
+
+> Create an interactive dashboard that combines the Bar chart called Customers sales and the Sales Bubble Chart. Once you click a bar, and roll over the related bubble, the name, sales and profit figures should be displayed in the Bubble chart.
+
+![LittleLemon Tableau chart](dashboard2.png)
